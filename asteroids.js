@@ -368,7 +368,7 @@ function animate() {
 					new Drawable(gameOverTexture, new Vector(maxX / 2, maxY / 3)).draw(menuContext);
 					drawString("Press Enter to play again", menuContext, 25, new Vector(maxX / 2, maxY / 1.5));
 					
-					if (KEY_STATUS.enter) {
+					if (KEY_STATUS.enter && lastKeyState !== 'enter') {
 						menuContext.clearRect(0, 0, maxX, maxY);
 						newGame();
 					}
