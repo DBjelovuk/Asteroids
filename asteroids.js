@@ -329,7 +329,7 @@ function animate() {
 				menuSelection = 0;
 			else if (KEY_STATUS.enter) {
 				menuContext.clearRect(0, 0, maxX, maxY);
-				if (menuSelection == 0) {
+				if (menuSelection === 0) {
 					menu = false;
 					menuSelection = 0;
 				}
