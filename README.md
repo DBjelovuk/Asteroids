@@ -1,2 +1,2 @@
 # Demo
-http://dbjelovuk.blogspot.ca/p/asteroids.html
+https://dbjelovuk.github.io/Asteroids/
